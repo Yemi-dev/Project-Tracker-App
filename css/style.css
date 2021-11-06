@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Henny+Penny&family=Indie+Flower&family=Saira+Condensed:wght@200;300;400;500;600&display=swap');
+
+/* font-family: 'Cormorant Garamond', serif;
+font-family: 'Henny Penny', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Saira Condensed', sans-serif; */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #967969;
+    max-height: 100vh;
+}
+
+.wrap{
+    background-color: #f1dac3;
+    max-width: 960px;
+    margin:5vh auto;
+    height: 90vh;
+    border-radius: 20px;
+}
+
+header {
+    background-color: #e4cbb4;
+    padding: 2rem 2rem .5rem 2rem;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.logo {
+    font-family: 'Henny Penny', cursive;
+    font-size: 2rem;
+}
+
+.filter-container {
+    width: 60%;
+    position: relative;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#filter:focus {
+box-shadow: none;
+}
+
+.search-icon{
+    position: absolute;
+    top: 3.5px;
+    right: 3px;
+    background-color: #f1dac3;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #7b3f00;
+}
+
+
+.search-icon > .iconify {
+  font-size: 1.5rem;
+  margin: .2rem .3rem;
+}
+
+main {
+    margin: 2rem;
+}
+.project-form {
+    width: 60%;
+    margin: 1.5rem 0;
+    font-family: 'Saira Condensed', sans-serif;
+    position: relative;
+}
+.project-form > input {
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+.project-form > input:focus {
+   box-shadow: none;
+}
+
+#submit {
+    position: absolute;
+    top: 35px;
+    right: 3px;
+    background-color: #f1dac3;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #7b3f00;
+}
+
+#submit:hover {
+    background-color: #967969;
+    cursor: pointer;
+}
+
+#submit > .iconify {
+    font-size: 1.5rem;
+}
+
+.task-container {
+    padding: 1rem 0;
+    max-height: 50vh;
+}
+
+.project-collection {
+    padding: 1rem 2rem;
+    font-family: 'Cormorant Garamond', sans-serif;
+    width: 100%;
+    overflow-y: scroll;
+    margin-bottom: 0;
+}
+
+.project-list {
+    margin: .5rem 0 1rem 0;
+    padding: .5rem 1rem;
+    list-style: none;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #f1dac3;
+    color: #7b3f00;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-list {
+    background-color: #f1dac3;
+    width: 7%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.delete-list > .iconify {
+    margin-bottom: 5px;
+    width: 100%;
+    
+}
+
+.null-task {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.null-task > .iconify {
+    font-size : 10rem;
+}
+
+.null-task-test {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.reset-section {
+    text-align: center;
+}
+
+.reset {
+    background-color:#7b3f00;
+    color: #f1dac3;
+    padding: .3rem 1rem;
+    border: 1px solid #7b3f00;
+    border-radius: 2px;
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 2rem 0;
+}
+
+.reset:hover {
+    background-color: #f1dac3;
+    color: #7b3f00;
+    
+}
+ 
+
+
+
+
+
+
+
