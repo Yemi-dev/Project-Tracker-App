@@ -70,7 +70,7 @@ main {
     margin: 2rem;
 }
 .project-form {
-    width: 60%;
+    width: 75%;
     margin: 1.5rem 0;
     font-family: 'Saira Condensed', sans-serif;
     position: relative;
@@ -128,7 +128,10 @@ main {
 
 .delete-list {
     background-color: #f1dac3;
-    width: 7%;
+    width: 10%;
+    min-width: 8%;
+    max-height: 1.5rem;
+    margin-left: 1rem;
     text-align: center;
     cursor: pointer;
 }

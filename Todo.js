@@ -16,7 +16,9 @@ function loadEvents() {
     form.addEventListener('submit', addProjects);
     // Remove Project Event
     projects.addEventListener('click', deleteProject);
+    // Filter Project Event
     searchFilter.addEventListener('keyup', filterProjects);
+    // Reset all Projects Event
     resetBtn.addEventListener('click', clearProjects);
 
 }
@@ -52,7 +54,6 @@ function getProjects (){
         link.classList.add('delete-list');
         link.innerHTML = '<span class="iconify" data-icon="heroicons-solid:trash" style="color: #7b3f00;"></span>';
         li.appendChild(link);
-        // Add new list to Ul
         projects.appendChild(li);
     });
 
@@ -82,7 +83,7 @@ function addProjects(e) {
     link.innerHTML = '<span class="iconify" data-icon="heroicons-solid:trash" style="color: #7b3f00;"></span>';
     li.appendChild(link);
 
-    // Add new list to Ul
+    // Add new list to UI
     projects.appendChild(li);
 
     // store Project in Local storage
