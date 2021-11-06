@@ -145,6 +145,8 @@ main {
 .null-task {
     text-align: center;
     padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-family: 'Saira Condensed', sans-serif;
 }
 
